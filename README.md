@@ -28,16 +28,20 @@ EDIFACT- und XML-Nachrichten"](https://www.edi-energy.de/index.php?id=38&tx_bdew
 
 Der Datenaustausch im Redispatch 2.0 erfolgt mit XML-Dateien. Send_RAIDA_EMail übernimmt lediglich den Versand dieser XML Dateien. Erzeugt werden müssen die XML-Dateien anderweitig, z.B. mit Hilfe des RAIDA Agent - siehe https://www.raida-agent.de/startseite. Der RAIDA Agent bietet eine Funktionen zur Excel/XML-Konvertierung.
 
+Bei Ausführung versendet Send_RAIDA_EMail alle XML-Dateien, die es in "outpath" findet.
+Im Erfolgsfall werden die versendenten Emails und XML-Dateien in "archivepath" abgelegt.
+Im Fehlerfall werden Meldungen in das Logfile geschrieben und eine Email mit dem Fehlerprotokoll versendet.
+
 ### Konfiguration
 
 Am Anfang des Python Codes befindet sich eine Sektion mit diversen Variablen, die an den Benutzer angepasst werden müssen:
 
 #### "DEBUG"
 
-DEBUG = False
+DEBUG = False:
 Emails werden an das RAIDA Produktivsystem verschickt.
 
-DEBUG = True
+DEBUG = True:
 Emails werden an das RAIDA Testsystem verschickt und es werden zusätzliche Debug-Files abglegt um die erzeugten Emails einsehen zu können.
 
 #### "outpath"
