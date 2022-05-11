@@ -1,0 +1,7 @@
+asn1crypto==1.4.0
+oscrypto==1.2.1
+pathlib2==2.3.7.post1
+pip==22.0.4
+python-smail==0.9.0
+setuptools==57.4.0
+six==1.16.0

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Send_RAIDA_email", "Send_RAIDA_email.pyproj", "{C5EC4784-1E82-4E7A-A2E5-C4F4CAA9A18E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5EC4784-1E82-4E7A-A2E5-C4F4CAA9A18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EC4784-1E82-4E7A-A2E5-C4F4CAA9A18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {624E272A-1985-479B-8673-ADF20802AB5A}
+	EndGlobalSection
+EndGlobal
